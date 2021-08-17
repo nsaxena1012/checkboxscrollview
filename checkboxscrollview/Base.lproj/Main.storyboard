@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="checkboxscrollview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fI-nU-pad">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2g1-OE-9FQ" userLabel="content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2r-2m-cvh">
+                                                <rect key="frame" x="35" y="186" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Dr-sz-hnc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNv-rv-Nd0">
+                                                <rect key="frame" x="35" y="311" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1U2-BW-UAJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtl-W3-BrD">
+                                                <rect key="frame" x="35" y="448" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="75r-WY-Icq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndw-Be-EGR">
+                                                <rect key="frame" x="35" y="600" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vDI-Bh-n1F"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paB-Ph-Pm3">
+                                                <rect key="frame" x="35" y="757" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVb-8c-nXg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlp-Oh-TFF">
+                                                <rect key="frame" x="35" y="917" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4AJ-ef-Fyu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONM-bk-lCe">
+                                                <rect key="frame" x="35" y="1076" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RDg-6E-Lp3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaq-IF-QE8">
+                                                <rect key="frame" x="35" y="1240" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pIi-sj-75P"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPC-xY-XwE">
+                                                <rect key="frame" x="35" y="1380" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VUx-Jn-Nhc"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBd-h2-XL2">
+                                                <rect key="frame" x="209" y="56" width="15" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRK-b2-CGS">
+                                                <rect key="frame" x="35" y="51" width="33" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="icons8-unchecked-checkbox-100"/>
+                                                <state key="selected" image="icons8-checked-checkbox-100"/>
+                                                <connections>
+                                                    <action selector="bTnAction1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5V-6a-cYw"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDS-hh-mrG">
+                                                <rect key="frame" x="213" y="316" width="12" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfb-8Q-7Xq">
+                                                <rect key="frame" x="212" y="453" width="12" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YT-mT-H1t">
+                                                <rect key="frame" x="217" y="605" width="12" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdM-1a-YkE">
+                                                <rect key="frame" x="214" y="762" width="12" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEV-r6-jAo">
+                                                <rect key="frame" x="218" y="922" width="11" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmD-e9-eWq">
+                                                <rect key="frame" x="219" y="1081" width="12" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROY-pb-Qi1">
+                                                <rect key="frame" x="218" y="1245" width="12" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjP-hr-VXa">
+                                                <rect key="frame" x="214" y="1385" width="20" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r87-Ti-fHq">
+                                                <rect key="frame" x="209" y="191" width="13" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="69c-Pt-SjM"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="2g1-OE-9FQ" secondAttribute="bottom" id="Hqx-ZF-PVp"/>
+                                    <constraint firstItem="2g1-OE-9FQ" firstAttribute="top" secondItem="9fI-nU-pad" secondAttribute="top" id="JFr-FO-Y0G"/>
+                                    <constraint firstItem="2g1-OE-9FQ" firstAttribute="leading" secondItem="9fI-nU-pad" secondAttribute="leading" id="ahg-KN-yfx"/>
+                                    <constraint firstAttribute="trailing" secondItem="2g1-OE-9FQ" secondAttribute="trailing" id="e0b-av-HM9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2g1-OE-9FQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="1Ez-z3-6Fe"/>
+                            <constraint firstItem="9fI-nU-pad" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mbp-h3-3Aa"/>
+                            <constraint firstItem="9fI-nU-pad" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aMd-g5-9vd"/>
+                            <constraint firstItem="9fI-nU-pad" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gwh-EK-WRR"/>
+                            <constraint firstAttribute="bottom" secondItem="9fI-nU-pad" secondAttribute="bottom" id="uei-wN-pC1"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                    <connections>
+                        <outlet property="bTn1" destination="pRK-b2-CGS" id="Noj-z5-pph"/>
+                        <outlet property="bTn10" destination="NPC-xY-XwE" id="Rht-bE-liq"/>
+                        <outlet property="bTn2" destination="A2r-2m-cvh" id="GCa-ck-GAh"/>
+                        <outlet property="bTn3" destination="FNv-rv-Nd0" id="sNE-aC-U3Q"/>
+                        <outlet property="bTn4" destination="Xtl-W3-BrD" id="33M-OT-aqk"/>
+                        <outlet property="bTn5" destination="ndw-Be-EGR" id="DrQ-hf-9Xc"/>
+                        <outlet property="bTn6" destination="paB-Ph-Pm3" id="MfX-hM-mAQ"/>
+                        <outlet property="bTn7" destination="Zlp-Oh-TFF" id="USc-Nv-ZYg"/>
+                        <outlet property="bTn8" destination="ONM-bk-lCe" id="9v0-nj-YWg"/>
+                        <outlet property="bTn9" destination="uaq-IF-QE8" id="saE-c1-2j1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="76.339285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-checked-checkbox-100" width="33" height="33"/>
+        <image name="icons8-unchecked-checkbox-100" width="33" height="33"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
